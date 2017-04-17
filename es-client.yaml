@@ -25,6 +25,8 @@ spec:
           }
         ]'
     spec:
+      nodeSelector:
+        type: egress
       containers:
       - name: es-client
         securityContext:

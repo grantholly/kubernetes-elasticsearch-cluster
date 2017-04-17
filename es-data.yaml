@@ -6,6 +6,8 @@ metadata:
     component: elasticsearch
     role: data
 spec:
+  nodeSelector:
+    type: egress
   replicas: 2
   template:
     metadata:
